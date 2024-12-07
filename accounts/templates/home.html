@@ -4,12 +4,17 @@
 {% block content %}
 {% if user.is_authenticated %}
     Hi {{ user.username }}
-    <p><a href="{% url 'logout' %}">Log Out</a></p>
-    <p><a href="{% url 'password_change' %}">Password Change</a></p>
+    <p><a href="{% url 'logout' %}">Log Out</a> | <a href="{% url 'password_change' %}">Password Change</a></p>
+    <br/>
+    <div class="jumbotron">
+    <h1 class="display-4">Newspaper app</h1>
+    <p class="lead">A Newspaper website built with Django.</p> <p class="lead">
+    <a class="btn btn-primary btn-lg" href="{% url 'article_list' %}" role="button">View All Articles</a>
+    </p>
+    </div>
 {% else %}
     <p>You are not logged in </p>
     <p><a href="{% url 'login' %}">LOgIn</a></p>
     <p><a href="{% url 'signup' %}">SingnUP</a></p>
-    
 {% endif %}
 {% endblock content %}
