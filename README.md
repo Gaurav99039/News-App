@@ -6,6 +6,10 @@ To run locally on computer:
 4) Enter you details and login
 5) Add Articles
 6) Then go to http://127.0.0.1:8000/
+
+You are required to login to create an article
+You can only edit and delete you own articles
+You can comment on any articles
    
 Congrats you have sucessfully ran the website on your computer!
 ![image](https://github.com/user-attachments/assets/cce6bf93-c8a0-4979-ae20-510c186e562c)
