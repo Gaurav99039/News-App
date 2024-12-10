@@ -1,13 +1,11 @@
 Simple news app with custom user functionality, integartion with bootstrap , password change and reset funcitionality
 To run locally on computer:
 1) Make sure you have python and django installed
-2) Run python manage.py makemigartions followed by python manage.py migrate
-3) Run python manage.py createsuperuser and enter you details
-4) Run python manage.py runserver
-5) Head over to http://127.0.0.1:8000/admin
-6) Enter you details and login
-7) Add Articles
-8) Then go to http://127.0.0.1:8000/
+2) Run python manage.py runserver
+3) Head over to http://127.0.0.1:8000/admin
+4) Enter you details and login
+5) Add Articles
+6) Then go to http://127.0.0.1:8000/
    
 Congrats you have sucessfully ran the website on your computer!
 ![image](https://github.com/user-attachments/assets/cce6bf93-c8a0-4979-ae20-510c186e562c)
